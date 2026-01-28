@@ -1,0 +1,7 @@
+echo "Info: User logged in" > syslog.txt
+echo "Info: Image uploaded" >> syslog.txt
+echo "Warning: High memory usage" >> syslog.txt
+echo "Info: Email sent" >> syslog.txt
+echo "CRITICAL: Database connection failed (Error 503)" >> syslog.txt
+echo "Info: User logged out" >> syslog.txt
+echo "CRITICAL: Payment gateway timeout" >> syslog.txt

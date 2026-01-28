@@ -1,0 +1,2 @@
+echo "CRITICAL: Database connection failed (Error 503)" >> syslog.txt
+echo "CRITICAL: Payment gateway timeout" >> syslog.txt
